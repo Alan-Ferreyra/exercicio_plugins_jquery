@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <form>
+      <label for="nomeCompleto">Nome Completo:</label>
+      <input required type="text" name="nomeCompleto" id="nomeCompleto" />
+      <label for="email">E-mail:</label>
+      <input required type="email" name="email" id="email" />
+      <label for="telefone">Telefone</label>
+      <input required type="text" name="telefone" id="telefone" />
+      <label for="cpf">CPF</label>
+      <input required type="text" name="cpf" id="cpf" />
+      <label for="enderecoCompleto">Endereço Completo</label>
+      <input
+        required
+        type="text"
+        name="enderecoCompleto"
+        id="enderecoCompleto"
+      />
+      <label for="cep">CEP:</label>
+      <input required type="text" name="cep" id="cep" />
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+
+    <script src="./js/jquery.mask.min.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
